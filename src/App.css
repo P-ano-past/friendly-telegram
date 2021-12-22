@@ -1,0 +1,28 @@
+html {
+  background-color: #a4a5ae;
+}
+.pg {
+  background-color: #a4a5ae;
+}
+.pgcont {
+  border: black 2px dotted;
+}
+.mCont1 {
+  background-color: #a8a9ac;
+  border: purple 1px solid;
+}
+.row {
+  /* border: rgb(0, 255, 0) solid 1px; */
+}
+.col {
+  /* border: rgb(255, 0, 0) dashed 1px; */
+}
+.container {
+  /* border: blue dotted 1px; */
+}
+.left {
+  border: rgb(0, 255, 0) solid 1px;
+}
+.right {
+  border: rgb(255, 0, 0) dashed 1px;
+}

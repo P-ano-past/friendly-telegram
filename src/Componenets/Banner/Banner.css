@@ -1,0 +1,23 @@
+.myName {
+  font-size: 45px;
+  justify-content: center;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+}
+
+.myNameCont1 {
+  border: black solid 3px;
+  border-radius: 100%;
+}
+
+#douterL {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
+}
+
+.outerCont {
+  border: solid orange 2px;
+}
