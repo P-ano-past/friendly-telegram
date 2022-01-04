@@ -10,8 +10,12 @@ export default function Banner() {
       <Container>
         <Row>
           <Col />
-          <Col className="myNameCont1" xs={8}>
-            <p className="myName">{Name}</p>
+          <Col>
+            <Col className="MNC1">
+              <Col className="myNameCont1">
+                <p className="myName">{Name}</p>
+              </Col>
+            </Col>
           </Col>
           <Col />
         </Row>
