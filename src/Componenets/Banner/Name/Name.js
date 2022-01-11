@@ -6,10 +6,12 @@ export default function Name() {
   const Name = "<Marc Salaver />";
 
   return (
-    <Col className="MNC2">
-      <Col className="MNC1">
-        <Col className="myNameCont1">
-          <p className="myName">{Name}</p>
+    <Col>
+      <Col className="MNC2">
+        <Col className="MNC1">
+          <Col className="myNameCont1">
+            <p className="myName">{Name}</p>
+          </Col>
         </Col>
       </Col>
     </Col>

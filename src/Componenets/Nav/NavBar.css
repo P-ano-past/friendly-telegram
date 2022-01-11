@@ -1,0 +1,7 @@
+.nav {
+  background-color: black;
+  box-shadow: inset 0px 0px 25px 25px #292929;
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+}
