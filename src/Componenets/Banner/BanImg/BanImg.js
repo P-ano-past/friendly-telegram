@@ -1,11 +1,11 @@
 import React from "react";
-import { Col, Row, Image } from "react-bootstrap";
+import { Col, Row, Image, Container } from "react-bootstrap";
 import "./BanImg.css";
 import Name from "../Name/Name";
 
 export default function BanImg() {
   return (
-    <Row>
+    <Container>
       <Row>
         <Col className="imgCont">
           <Image
@@ -20,6 +20,6 @@ export default function BanImg() {
           <Name />
         </Col>
       </Row>
-    </Row>
+    </Container>
   );
 }

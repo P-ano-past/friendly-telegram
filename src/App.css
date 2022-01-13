@@ -3,15 +3,18 @@ html {
 }
 .pg {
   justify-content: center;
-  background-color: #ffbf69;
+  background-image: linear-gradient(RGB(157, 147, 143), #ffbf69);
   border: black dashed 5px;
+  height: 700px;
   /* position: relative; */
   top: -50px;
 }
 .subPg {
   justify-content: center;
   background-color: #ffbf69;
-  /* border: black dashed 5px; */
+  background-image: linear-gradient(RGB(157, 147, 143), #ffbf69);
+  height: 100%;
+  border: blue dashed 5px;
 }
 .pgcont {
   /* border: black 4px solid; */
@@ -21,10 +24,11 @@ html {
 }
 .mCont1 {
   background-color: #2ec4b6;
+  height: 700px;
   /* border: purple 1px solid; */
 }
 .row {
-  /* border: rgb(0, 255, 0) solid 1px; */
+  border: rgb(0, 255, 0) solid 1px;
 }
 .col {
   /* border: rgb(255, 0, 0) dashed 1px; */

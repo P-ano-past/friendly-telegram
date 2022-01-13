@@ -5,7 +5,7 @@
   padding: 0px;
   border-radius: 10px;
   bottom: 0px;
-  border: rgb(0, 0, 0) dashed 1px;
+  /* border: rgb(0, 0, 0) dashed 1px; */
 }
 
 .imgCont {
@@ -13,12 +13,12 @@
   top: -150px;
   justify-content: center;
   text-align: center;
-  border: rgb(255, 0, 0) dashed 1px;
+  /* border: rgb(255, 0, 0) dashed 1px; */
 }
 
 .nCont {
   position: relative;
   bottom: 290px;
   text-align: center;
-  border: rgb(0, 66, 247) dashed 1px;
+  /* border: rgb(0, 66, 247) dashed 1px; */
 }

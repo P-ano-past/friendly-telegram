@@ -12,16 +12,20 @@ function App() {
       <NavBar />
       <Container fluid className="pg">
         <Container className="subPg">
-          <Row>
-            <BanImg />
+          {/* <Container>
+            <Row>
+          <Col> */}
+          <BanImg />
+          {/* </Col>
           </Row>
+          </Container> */}
         </Container>
       </Container>
-      <Container fluid className="mCont1">
+      {/* <Container fluid className="mCont1">
         <Row>
           <Container>
             <Row>
-              <Col fluid>nav should go here</Col>
+              <Col fluid>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
             </Row>
           </Container>
           <Col className="left"></Col>
@@ -37,7 +41,7 @@ function App() {
             </Row>
           </Container>
         </Row>
-      </Container>
+      </Container> */}
     </>
   );
 }

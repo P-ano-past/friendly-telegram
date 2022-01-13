@@ -1,19 +1,35 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Container, Col, Row, Image } from "react-bootstrap";
 import "./Name.css";
 
 export default function Name() {
-  const Name = "<Marc Salaver />";
-
   return (
-    <Col>
-      <Col className="MNC2">
-        <Col className="MNC1">
-          <Col className="myNameCont1">
-            <p className="myName">{Name}</p>
+    <Container>
+      <Row>
+        <Col />
+        <Col />
+        <Col className="MNC2">
+          <Col className="MNC1">
+            <Col className="myNameCont1">
+              <Col>
+                <Image
+                  className="mypic"
+                  src="https://lh3.googleusercontent.com/pw/AM-JKLUdPoxnXmjWQLo29sqvcFhdTZdqPAsKxwsNLybnrsRvLGZZMNOANmqyctIIBlIKDEFOQ0bl7FvYIHmwU8cEXmUe4ymNY7amFBTDF4whn9TsynktNeaq1RuW14kLiTkkUe28WQRkC3TPy008eZsnNCi0CQ=w770-h646-no?authuser=0"
+                ></Image>
+              </Col>
+            </Col>
           </Col>
         </Col>
-      </Col>
-    </Col>
+        <Col />
+        <Col />
+      </Row>
+      <Row className="greetR">
+        <Col />
+        <Col className="greeting">
+          <h1>Marc Salaver</h1>
+        </Col>
+        <Col />
+      </Row>
+    </Container>
   );
 }
