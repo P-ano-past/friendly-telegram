@@ -8,41 +8,43 @@ import Name from "./Componenets/Banner/Name/Name";
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <Container fluid className="pg">
-        <Container className="subPg">
-          {/* <Container>
+    <Container className="main" fluid>
+      <Row>
+        <NavBar />
+        <Container className="pg">
+          <Container className="gl">
             <Row>
-          <Col> */}
-          <BanImg />
-          {/* </Col>
-          </Row>
-          </Container> */}
+              <Container className="subPg">
+                <BanImg />
+              </Container>
+            </Row>
+          </Container>
         </Container>
-      </Container>
-      {/* <Container fluid className="mCont1">
-        <Row>
-          <Container>
+        <Container className="mCont1">
+          <Container className="sb">
             <Row>
-              <Col fluid>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
+              <Container className="ps">
+                <Row>
+                  <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
+                </Row>
+              </Container>
+              <Col className="left"></Col>
+              <Col className="pgcont" xs={8}>
+                <Works />
+                <About />
+              </Col>
+              <Col className="right"></Col>
+              <Container>
+                <Row>
+                  <Col></Col>
+                  <Col></Col>
+                </Row>
+              </Container>
             </Row>
           </Container>
-          <Col className="left"></Col>
-          <Col className="pgcont" xs={8}>
-            <Works />
-            <About />
-          </Col>
-          <Col className="right"></Col>
-          <Container>
-            <Row>
-              <Col></Col>
-              <Col></Col>
-            </Row>
-          </Container>
-        </Row>
-      </Container> */}
-    </>
+        </Container>
+      </Row>
+    </Container>
   );
 }
 

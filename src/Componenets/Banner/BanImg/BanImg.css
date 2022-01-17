@@ -1,24 +1,45 @@
+.banImgCont {
+  /* background-color: coral; */
+  /* top: -150px; */
+  /* bottom: 190px; */
+  /* overflow: hidden; */
+  /* border: rgb(0, 0, 0) dashed 1px; */
+}
+
 .bannerImage {
   background-color: transparent;
-  height: 600px;
-  width: 900px;
+  height: 750px;
+  width: 1050px;
   padding: 0px;
   border-radius: 10px;
-  bottom: 0px;
   /* border: rgb(0, 0, 0) dashed 1px; */
 }
 
 .imgCont {
   position: relative;
-  top: -150px;
+  /* top: -150px; */
   justify-content: center;
   text-align: center;
-  /* border: rgb(255, 0, 0) dashed 1px; */
+  /* border: rgb(255, 0, 0) dashed 5px; */
+}
+
+.greeting {
+  height: 100%;
+  /* width: 100%; */
+  justify-content: center;
+  text-align: center;
+  /* border: rgb(255, 2, 141) solid 1px; */
+}
+
+.profilegreet {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  bottom: 100px;
+  /* background-color: black; */
 }
 
 .nCont {
-  position: relative;
-  bottom: 290px;
   text-align: center;
-  /* border: rgb(0, 66, 247) dashed 1px; */
+  /* border: rgb(0, 66, 247) dashed 5px; */
 }

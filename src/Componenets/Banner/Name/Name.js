@@ -4,10 +4,8 @@ import "./Name.css";
 
 export default function Name() {
   return (
-    <Container>
+    <Container className="mainNC">
       <Row>
-        <Col />
-        <Col />
         <Col className="MNC2">
           <Col className="MNC1">
             <Col className="myNameCont1">
@@ -20,15 +18,6 @@ export default function Name() {
             </Col>
           </Col>
         </Col>
-        <Col />
-        <Col />
-      </Row>
-      <Row className="greetR">
-        <Col />
-        <Col className="greeting">
-          <h1>Marc Salaver</h1>
-        </Col>
-        <Col />
       </Row>
     </Container>
   );

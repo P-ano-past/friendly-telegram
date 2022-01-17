@@ -1,12 +1,50 @@
+.mainNC {
+  /* border: rgb(255, 0, 0) dashed 1px; */
+  position: relative;
+  bottom: 150px;
+}
+
+.MNC2 {
+  left: 0;
+  right: 0;
+  padding: 0;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  display: inline-block;
+  width: auto;
+  position: relative;
+  /* border: rgb(255, 225, 0) dashed 1px; */
+}
+
+.MNC1 {
+  left: 0;
+  right: 0;
+  /* width: auto; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  align-items: center;
+  box-shadow: inset 0px 0px 50px 24px #ffbf69;
+  border: #ff9f1c solid 2px;
+}
+
 .myNameCont1 {
+  /* border: rgb(255, 225, 0) dashed 1px; */
   display: flex;
   margin: 0 auto;
   align-items: center;
-  /* border: rgb(0, 0, 0) solid 2px; */
   justify-content: center;
   position: absolute;
   width: 250px;
-  height: 200px;
+  height: 220px;
 }
 
 .mypic {
@@ -14,54 +52,4 @@
   height: 220px;
   border-radius: 50%;
   border: #ffbf69 solid 5px;
-}
-
-.MNC1 {
-  left: 0;
-  right: 0;
-  width: auto;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  justify-content: center;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  line-height: 4;
-  position: relative;
-  overflow: visible;
-  align-items: center;
-  box-shadow: inset 0px 0px 50px 24px #ffbf69;
-  border: #ff9f1c solid 2px;
-}
-
-.MNC2 {
-  padding: 0;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  flex-wrap: wrap;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  display: inline-block;
-  width: auto;
-  position: relative;
-
-  /* border-radius: 50%; */
-  /* background: #ffbf69; */
-  /* box-shadow: 0px 0px 50px 15px #000000ce; */
-  /* border: rgb(48, 2, 253) solid 5px; */
-}
-
-.greetR {
-  height: 100%;
-}
-
-.greeting {
-  border: rgb(255, 0, 0) dashed 1px;
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  text-align: center;
 }
