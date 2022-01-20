@@ -22,14 +22,12 @@ export default function BanImg() {
           <Row>
             <Col>
               <Name />
-              <Col />
               <Col className="greeting">
                 <Col className="profilegreet">
                   <h1>Marc Salaver</h1>
                   <strong>Developing futures</strong>
                 </Col>
               </Col>
-              <Col />
             </Col>
           </Row>
         </Container>

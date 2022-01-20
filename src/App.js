@@ -26,20 +26,24 @@ function App() {
               <Container className="ps">
                 <Row>
                   <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
+                  <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
+                </Row>
+                <Row>
+                  <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
+                  <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
+                </Row>
+                <Row>
+                  <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
+                  <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
                 </Row>
               </Container>
+
               <Col className="left"></Col>
               <Col className="pgcont" xs={8}>
                 <Works />
                 <About />
               </Col>
               <Col className="right"></Col>
-              <Container>
-                <Row>
-                  <Col></Col>
-                  <Col></Col>
-                </Row>
-              </Container>
             </Row>
           </Container>
         </Container>
