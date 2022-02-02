@@ -23,23 +23,8 @@ function App() {
         <Container className="mCont1">
           <Container className="sb">
             <Row>
-              <Container className="ps">
-                <Row>
-                  <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
-                  <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
-                </Row>
-                <Row>
-                  <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
-                  <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
-                </Row>
-                <Row>
-                  <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
-                  <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
-                </Row>
-              </Container>
-
               <Col className="left"></Col>
-              <Col className="pgcont" xs={8}>
+              <Col className="pgcont" xs={11}>
                 <Works />
                 <About />
               </Col>
