@@ -23,7 +23,9 @@ function App() {
         <Container className="mCont1">
           <Container className="sb">
             <Row>
-              <Col className="left"></Col>
+              <Col className="left">
+                test
+                </Col>
               <Col className="pgcont" xs={11}>
                 <Works />
                 <About />
