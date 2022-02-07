@@ -9,7 +9,7 @@ export default function BanImg() {
       <Row>
         <Container className="imgCont">
           <Row>
-            <Col>
+            <Col className="imgCol">
               <Image
                 src="https://lh3.googleusercontent.com/pw/AM-JKLVqNY1SMAxlP8j6nN34K_KhZwQ_sVD0ViDVnL1LRXHx99yu3jNBLgsBTJWdy7T7oINa1OnbpB_RkbPZgk1ECCGSirJ4JLuHXGl5o9pEv5FM__jU-hviNfhfA8swI3gVrfkIQi6lj0U2NP2nIpjMMLXRLA=w1350-h900-no?authuser=0"
                 className="bannerImage"

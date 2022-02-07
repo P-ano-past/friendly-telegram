@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+import React from "react";
 import About from "./Componenets/About/About";
 import Works from "./Componenets/Works/Works";
 import NavBar from "./Componenets/Nav/NavBar";
@@ -23,9 +25,7 @@ function App() {
         <Container className="mCont1">
           <Container className="sb">
             <Row>
-              <Col className="left">
-                test
-                </Col>
+              <Col className="left"></Col>
               <Col className="pgcont" xs={11}>
                 <Works />
                 <About />
