@@ -24,7 +24,7 @@ html {
   margin: 0px;
   padding: 0px;
   position: relative;
-  bottom: 250px;
+  bottom: 225px;
   /* border: black dashed 5px; */
 }
 .subPg {
@@ -32,6 +32,7 @@ html {
   background-color: transparent;
   background-image: transparent;
   height: 100%;
+  position: relative;
   /* border: blue dashed 5px; */
 }
 .pgcont {

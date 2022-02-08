@@ -15,15 +15,16 @@
   padding: 0px;
   border-radius: 10px;
   position: relative;
-  /* display: block; */
   margin-left: auto;
   margin-right: auto;
+  /* bottom: 250px; */
+  /* bottom: 25%; */
   /* border: rgb(0, 0, 0) dashed 1px; */
 }
 
 .imgCont {
   position: relative;
-  /* top: -150px; */
+  display: block;
   justify-content: center;
   text-align: center;
   /* border: rgb(255, 0, 0) dashed 5px; */

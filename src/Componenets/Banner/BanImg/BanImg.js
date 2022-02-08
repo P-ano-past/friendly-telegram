@@ -18,6 +18,8 @@ export default function BanImg() {
             </Col>
           </Row>
         </Container>
+      </Row>
+      <Row>
         <Container className="nCont">
           <Row>
             <Col>

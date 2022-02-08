@@ -2,6 +2,7 @@
   /* border: rgb(255, 0, 0) dashed 1px; */
   position: relative;
   bottom: 150px;
+  z-index: 9999;
 }
 
 .MNC2 {
