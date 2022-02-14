@@ -20,6 +20,11 @@ export default function About() {
             </p>
           </Col>
         </Row>
+        <Row>
+          <Col>
+            <p>This is not a coincidence.</p>
+          </Col>
+        </Row>
       </Container>
     </Container>
   );
