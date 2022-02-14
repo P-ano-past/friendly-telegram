@@ -29,6 +29,7 @@ function App() {
               <Col className="pgcont" xs={11}>
                 <Works />
                 <About />
+                <About />
               </Col>
               <Col className="right"></Col>
             </Row>
