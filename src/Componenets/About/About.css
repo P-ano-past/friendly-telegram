@@ -1,17 +1,22 @@
+.ps {
+  border: solid 1px black;
+}
+
 .idmeTitle {
   font-family: "Crete Round", serif;
   color: black;
   font-size: 36px;
   border-bottom: 2px black solid;
   text-align: center;
-  text-shadow: 2px 2px 5px black;
+  /* text-shadow: 2px 2px 5px rgb(128, 127, 127);*/
 }
 
 .idme {
   font-family: "Crete Round", serif;
   color: black;
-  font-size: 22px;
+  font-size: 18px;
   border-bottom: 2px black solid;
   text-align: center;
-  text-shadow: 2px 2px 5px black;
+  line-height: 1.5;
+  /* text-shadow: 2px 2px 5px rgb(128, 127, 127); */
 }

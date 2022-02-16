@@ -22,6 +22,8 @@ export default function About() {
             </p>
           </Col>
         </Row>
+      </Container>
+      <Container>
         <Row>
           <Col>
             <p>
