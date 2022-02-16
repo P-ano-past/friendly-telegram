@@ -1,0 +1,17 @@
+.idmeTitle {
+  font-family: "Crete Round", serif;
+  color: black;
+  font-size: 36px;
+  border-bottom: 2px black solid;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+
+.idme {
+  font-family: "Crete Round", serif;
+  color: black;
+  font-size: 22px;
+  border-bottom: 2px black solid;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}

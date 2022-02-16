@@ -50,6 +50,8 @@
   position: relative;
   bottom: 100px;
   font-family: "Yellowtail", cursive;
+  color: black;
+  text-shadow: 2px 2px 10px black;
   /* background-color: black; */
 }
 
@@ -60,4 +62,6 @@
 
 #DF {
   font-family: "Press Start 2P", cursive;
+  color: black;
+  text-shadow: 2px 2px 10px black;
 }

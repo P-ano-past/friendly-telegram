@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
+import "./About.css";
 
 export default function About() {
   return (
@@ -8,8 +9,17 @@ export default function About() {
       <Container className="ps">
         <Row>
           <Col>
-            What needs to happen here is to insert content about what I can
-            provide as a developer.
+            <p>
+              <h2 className="idmeTitle">About me</h2>
+            </p>
+            <p className="idme">
+              I have been involved in the world of programming since 2019. I
+              used free services like CodeAcademy and FreeCodeCamp to learn the
+              basics of web development. After picking up more skills within the
+              realm of HTML, CSS, and Javascript, I attended a coding bootcamp
+              to hone my skills further. Within this coding bootcamp, I learned
+              React and started to create projects on my own.
+            </p>
           </Col>
         </Row>
         <Row>

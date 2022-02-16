@@ -27,8 +27,14 @@ function App() {
             <Row>
               <Col className="left"></Col>
               <Col className="pgcont" xs={11}>
-                <Works />
-                <About />
+                <Row>
+                  <Col>
+                    <Works />
+                  </Col>
+                  <Col>
+                    <About />
+                  </Col>
+                </Row>
               </Col>
               <Col className="right"></Col>
             </Row>
