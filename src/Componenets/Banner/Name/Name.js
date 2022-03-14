@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Col, Row, Image } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import "./Name.css";
 
 export default function Name() {
@@ -10,10 +10,13 @@ export default function Name() {
           <Col className="MNC1">
             <Col className="myNameCont1">
               <Col>
-                <Image
+                <img
+                  src="https://iciollys.sirv.com/Images/Me%20from%20IG.jpg"
+                  width="770"
+                  height="646"
                   className="mypic"
-                  src="https://lh3.googleusercontent.com/pw/AM-JKLUdPoxnXmjWQLo29sqvcFhdTZdqPAsKxwsNLybnrsRvLGZZMNOANmqyctIIBlIKDEFOQ0bl7FvYIHmwU8cEXmUe4ymNY7amFBTDF4whn9TsynktNeaq1RuW14kLiTkkUe28WQRkC3TPy008eZsnNCi0CQ=w770-h646-no?authuser=0"
-                ></Image>
+                  alt="Dark photo of Marc"
+                />
               </Col>
             </Col>
           </Col>

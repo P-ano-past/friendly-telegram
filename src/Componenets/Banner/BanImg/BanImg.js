@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row, Image, Container } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 import "./BanImg.css";
 import Name from "../Name/Name";
 
@@ -10,10 +10,12 @@ export default function BanImg() {
         <Container className="imgCont">
           <Row>
             <Col className="imgCol">
-              <Image
-                src="https://lh3.googleusercontent.com/pw/AM-JKLVqNY1SMAxlP8j6nN34K_KhZwQ_sVD0ViDVnL1LRXHx99yu3jNBLgsBTJWdy7T7oINa1OnbpB_RkbPZgk1ECCGSirJ4JLuHXGl5o9pEv5FM__jU-hviNfhfA8swI3gVrfkIQi6lj0U2NP2nIpjMMLXRLA=w1350-h900-no?authuser=0"
+              <img
+                src="https://iciollys.sirv.com/Images/900.jpg"
                 className="bannerImage"
-                alt="Colorful mechanical keyboard"
+                width="1350"
+                height="900"
+                alt="mechanical keyboard"
               />
             </Col>
           </Row>
