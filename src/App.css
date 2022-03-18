@@ -24,7 +24,7 @@ html {
   margin: 0px;
   padding: 0px;
   position: relative;
-  bottom: 225px;
+  bottom: 20px;
   /* border: black dashed 5px; */
 }
 .subPg {
@@ -36,7 +36,7 @@ html {
   /* border: blue dashed 5px; */
 }
 .pgcont {
-  /* border: black 4px solid; */
+  border: black 4px solid;
   /* background-color: #ffbf69; */
   border-radius: 25px;
   /* box-shadow: 0px 0px 250px 10px #ffbf69; */
@@ -45,8 +45,8 @@ html {
   /* background-color: #2ec4b6; */
   height: 700px;
   position: relative;
-  bottom: 250px;
-  /* border: purple 1px solid; */
+  /* bottom: 200px; */
+  border: purple 1px solid;
 }
 
 .outerCont {

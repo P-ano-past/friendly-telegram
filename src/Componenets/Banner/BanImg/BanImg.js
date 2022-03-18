@@ -11,7 +11,7 @@ export default function BanImg() {
           <Row>
             <Col className="imgCol">
               <img
-                src="https://iciollys.sirv.com/Images/900.jpg"
+                src="https://iciollys.sirv.com/Images/cropped.jpg"
                 className="bannerImage"
                 width="1350"
                 height="900"

@@ -14,9 +14,20 @@ export default function Works() {
           </Col>
         </Row>
       </Container>
-      <Container className="ps">
+      <Container>
         <Row>
-          <Col>#FF9F1C, #FFBF69, #FFF, #CBF3F0, #2EC4B6</Col>
+          <Col>
+            <p className="worksST">Kindred Kapwa</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p className="wST">
+              A previous client, Nicole, requested for my services to build out
+              a virtual business card to showcase her new media project, Kindred
+              Kapwa.
+            </p>
+          </Col>
         </Row>
       </Container>
       <Container className="ps">
