@@ -1,13 +1,13 @@
 .ps {
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
 
 .idmeTitle {
   font-family: "Crete Round", serif;
   color: black;
   font-size: 36px;
-  border-bottom: 2px black solid;
   text-align: center;
+  border-bottom: 2px black solid;
   /* text-shadow: 2px 2px 5px rgb(128, 127, 127);*/
 }
 
@@ -15,8 +15,12 @@
   font-family: "Crete Round", serif;
   color: black;
   font-size: 18px;
-  border-bottom: 2px black solid;
   text-align: center;
   line-height: 1.5;
   /* text-shadow: 2px 2px 5px rgb(128, 127, 127); */
+}
+
+.AboutOuterCont {
+  background-color: #ffbf69;
+  border-radius: 25px;
 }

@@ -5,7 +5,7 @@ import "./About.css";
 
 export default function About() {
   return (
-    <Container className="outerCont">
+    <Container className="AboutOuterCont">
       <Container className="ps">
         <Row>
           <Row>

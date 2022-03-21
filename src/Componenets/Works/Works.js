@@ -4,7 +4,7 @@ import "./Works.css";
 
 export default function Works() {
   return (
-    <Container className="outerCont">
+    <Container className="WorksOuterCont">
       <Container className="ps">
         <Row>
           <Col>
@@ -17,15 +17,34 @@ export default function Works() {
       <Container>
         <Row>
           <Col>
-            <p className="worksST">Kindred Kapwa</p>
+            <u>
+              <a
+                className="KKlink"
+                href="http://kindredkapwa.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Kindred Kapwa
+              </a>
+            </u>
           </Col>
         </Row>
         <Row>
           <Col>
             <p className="wST">
               A previous client, Nicole, requested for my services to build out
-              a virtual business card to showcase her new media project, Kindred
-              Kapwa.
+              a virtual business card to showcase her new media project,
+              <u>
+                <a
+                  className="KKlink"
+                  href="http://kindredkapwa.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Kindred Kapwa
+                </a>
+              </u>
+              .
             </p>
           </Col>
         </Row>

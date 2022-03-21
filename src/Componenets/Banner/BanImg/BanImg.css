@@ -50,19 +50,21 @@
   justify-content: center;
   position: relative;
   bottom: 100px;
-  font-family: "Yellowtail", cursive;
   color: black;
-  text-shadow: 2px 2px 10px black;
-  /* background-color: black; */
 }
 
 .nCont {
   text-align: center;
-  /* border: rgb(0, 66, 247) dashed 5px; */
 }
 
 #DF {
   font-family: "Press Start 2P", cursive;
   color: black;
-  text-shadow: 2px 2px 10px black;
+}
+
+.Name {
+  font-size: 100px;
+  font-stretch: expanded;
+  font-family: "Spartan", sans-serif;
+  /* border: 1px black solid; */
 }

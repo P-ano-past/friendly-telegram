@@ -28,7 +28,7 @@ export default function BanImg() {
               <Name />
               <Col className="greeting">
                 <Col className="profilegreet">
-                  <h1>Marc Salaver</h1>
+                  <h1 className="Name">MARC SALAVER</h1>
                   <strong id="DF">Developing futures</strong>
                 </Col>
               </Col>
